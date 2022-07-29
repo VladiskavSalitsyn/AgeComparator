@@ -22,7 +22,8 @@ public class Main {
         System.out.println("Max " + max);
         }
 
-        /* boolean MinAgeVasya = vasyaAge <= katyaAge && vasyaAge <= mishaAge;
+        /*
+        boolean MinAgeVasya = vasyaAge <= katyaAge && vasyaAge <= mishaAge;
         boolean MaxAgeVasya = vasyaAge >= katyaAge && vasyaAge >= mishaAge;
         boolean MiddleAgeVasya = vasyaAge >= katyaAge && vasyaAge <= mishaAge ||
                 vasyaAge >= mishaAge && vasyaAge <=katyaAge;
@@ -57,10 +58,34 @@ public class Main {
             System.out.println("Maximal age: " + katyaAge);
         } else if (MaxAgeMisha) {
             System.out.println("Maximal age: " + mishaAge);
-        } **/
+        }
+        **/
     }
-    // Проверка для Git
-
+    /*if (vasyaAge <= katyaAge && vasyaAge <=mishaAge) {
+            min = vasyaAge;
+            } else if (katyaAge <= vasyaAge && katyaAge <= mishaAge){
+            min = katyaAge;
+            }else if (mishaAge <= vasyaAge && mishaAge <= katyaAge) {
+            min = mishaAge;
+            }
+            if (vasyaAge <= katyaAge && vasyaAge >=mishaAge || vasyaAge <= mishaAge && vasyaAge >= katyaAge) {
+            middle = vasyaAge;
+            } else if (katyaAge <= vasyaAge && katyaAge >= mishaAge || katyaAge <= mishaAge && katyaAge >= vasyaAge) {
+            middle = katyaAge;
+            } else if (mishaAge <= vasyaAge && mishaAge >= katyaAge || mishaAge <= katyaAge && mishaAge >= vasyaAge) {
+            middle = mishaAge;
+            }
+            if (vasyaAge >= katyaAge && vasyaAge >= mishaAge) {
+            max = vasyaAge;
+            } else if (katyaAge >= vasyaAge && katyaAge >= mishaAge) {
+            max = katyaAge;
+            } else if (mishaAge >= vasyaAge && mishaAge >= katyaAge) {
+            max = mishaAge;
+            }
+            System.out.println("Min: " + min);
+            System.out.println("Middle: " + middle);
+            System.out.println("Max: " + max);
+**/
 
 
 
